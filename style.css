@@ -1,0 +1,206 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+}
+
+#vertical_line
+{
+    height: 70px;
+    border-right: 1px solid #f8f8f8;
+}
+
+#search_bar
+{
+    width:45%;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    padding-left: 15px;
+}
+#search_bar>input
+{
+    width:90%;
+    border: none;
+    height:50px;
+    background-color: transparent;
+}
+
+#hero_section
+{
+    width:85%;
+    margin: auto;
+}
+
+#categories_section
+{
+    width:85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper
+{
+    width:85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.list
+{
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    text-wrap: nowrap;
+}
+
+.list>img
+{
+    margin-inline: 10px;
+}
+.list2
+{
+    overflow: hidden;
+    overflow-x: scroll;
+    text-wrap: nowrap;
+    scrollbar-width: none;
+}
+
+.category_section
+{
+    width:85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.my_card
+{
+    width:200px;
+    display: inline-block !important;
+    margin-inline: 10px;
+}
+.my_card>img{
+    width: 80%;
+    margin: auto;
+}
+
+.card_timer
+{
+    font-size: 12px;
+    background-color: #fefefe;
+    padding: 3px;
+    width:fit-content;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.card_body>h6
+{
+    text-wrap: wrap;
+}
+
+.card_weight
+{
+    color: rgb(162, 158, 156);
+    font-size: 15px;
+}
+
+/* footer */
+#footer_row3
+{
+    width:85%;
+    margin: auto;
+    color:#666666;
+    text-align: justify;
+    padding-top: 40px;
+}
+
+
+#social_icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social_icon
+{
+    width:45px;
+    height: 45px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#footer_row1, #footer_row2,#footer_row3
+{
+    width:85%;
+    margin: auto;
+}
+
+
+#footer_row2
+{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#downloads
+{
+    display: flex;
+    align-items: center;
+    color: rgb(134, 134, 134);
+    justify-content: space-around;
+    gap: 12px;
+}
+#footer_row2>p
+{
+    font-size: 13px;
+    width:32%;
+    color: rgb(168, 168, 168);
+}
+
+#footer_row1
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#table_1
+{
+    flex:1;
+}
+#table_2
+{
+    flex:2;
+}
+
+table
+{
+    width: 100%;
+}
+td
+{
+    color: #7d7d7d;
+}
+td
+{
+    padding-top: 6px;
+}
